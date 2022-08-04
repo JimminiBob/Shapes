@@ -20,8 +20,14 @@ public class App
 
         Shapes[] myShapes = {rect1, tri1, rect2, tri2, rect3};
 
+//        for (Shapes element: myShapes) {
+//            System.out.println(element.toString() + " area is " + element.getArea());
+//        }
+
         for (Shapes element: myShapes) {
-            System.out.println(element.toString() + " area is " + element.getArea());
+            if (element.getShapeType().equals("Triangle")) {
+                System.out.println(element.toString() + " area is " + element.getArea());
+            }
         }
     }
 

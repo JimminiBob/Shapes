@@ -15,6 +15,11 @@ public class Triangle implements Shapes{
     }
 
     @Override
+    public String getShapeType() {
+        return "Triangle";
+    }
+
+    @Override
     public String toString() {
         return "Triangle{" +
                 "base=" + base +

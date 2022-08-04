@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd6fc04-d7db-45f7-ad99-236aacd2b975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Triangle.java" afterDir="false" />
+    <list default="true" id="1dd6fc04-d7db-45f7-ad99-236aacd2b975" name="Changes" comment="&quot;Working v1&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,6 +82,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -93,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Working v1&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Working v1&quot;" />
   </component>
 </project>

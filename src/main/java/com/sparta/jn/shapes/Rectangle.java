@@ -12,9 +12,15 @@ public class Rectangle implements Shapes{
     public double getArea() {
         return this.width*this.length;
     }
+
+    @Override
+    public String getShapeType() {
+        return "Rectangle";
+    }
+
     @Override
     public String toString() {
-        return "Square{" +
+        return "Rectangle{" +
                 "width=" + width +
                 ", length=" + length +
                 '}';
