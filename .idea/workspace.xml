@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd6fc04-d7db-45f7-ad99-236aacd2b975" name="Changes" comment="&quot;Working v1&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/shapes/ShapeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="C:\Users\kwokl\Sparta\Shapes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest.shouldPrintOutOnlyTheShapesEnteredAsAString">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.jn.shapes.App" />
       <module name="Shapes" />
@@ -65,8 +66,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.shouldPrintOutOnlyTheShapesEnteredAsAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shapes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.AppTest" />
+      <option name="METHOD_NAME" value="shouldPrintOutOnlyTheShapesEnteredAsAString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.shouldPrintOutOnlyTheShapesEnteredAsAString" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -80,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659611385070</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Working v1&quot;">
+      <created>1659625095439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659625095439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
